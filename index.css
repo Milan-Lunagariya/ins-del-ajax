@@ -1,0 +1,62 @@
+
+
+
+body{
+    background-color: silver;
+}
+.formcontainer{
+    margin: auto;
+    width: max-content;
+    background-color: azure;
+}
+#onoff{
+    display: none;
+}
+.form-field{
+    padding: .5em;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.flexend{
+    display: flex;
+    justify-content: end;
+    padding: 1em;
+}
+ button {
+    cursor: pointer;
+    width: fit-content;
+    padding: 1em;
+    margin: 0em 1em;
+    border-radius: 8px;
+    border: 2px solid lightblue;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type=reset]{
+    background: blue;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    padding: 1em;
+}
+select{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 90%;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 90%;
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+#save{
+    background-color: green;
+    color: white;
+}
